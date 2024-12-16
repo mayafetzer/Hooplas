@@ -35,4 +35,33 @@ Install the following libraries using pip:
 !pip install openai -q
 !pip install langchain-community -q
 !pip install langchain-openai -q
+
+### Explanations
+shap:
+
+SHAP (SHapley Additive exPlanations) is a powerful tool for interpreting machine learning models. It helps explain predictions by showing how each feature contributes to the output of the model, based on game-theory principles.
+
+pickle-mixin:
+
+This library is an extension of Python's built-in pickle module, designed to serialize and deserialize Python objects. It's particularly useful for saving and loading complex objects or configurations across different sessions.
+
+numpy:
+
+NumPy is a fundamental library for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, as well as a collection of mathematical functions to operate on them.
+
+langchain:
+
+LangChain is a framework designed to assist in developing language model applications. It provides tools for connecting language models to external data sources, chaining together operations, and building conversational agents and knowledge-based systems.
+
+openai:
+
+This library allows integration with OpenAI's APIs for accessing their language models (like GPT). It is used to query, generate, and process text with state-of-the-art AI models.
+
+langchain-community:
+
+This library provides additional community-driven modules, connectors, and extensions for LangChain, making it easier to integrate with a variety of external tools and APIs.
+
+langchain-openai:
+
+An extension of LangChain specifically designed for seamless integration with OpenAI's language models, combining the power of LangChain's chaining and modularization capabilities with OpenAI's advanced AI features.
 ```
